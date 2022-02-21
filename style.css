@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+main {
+  display: flex;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  padding: 100px 15px 15px 30px;
+}
+
+.email button {
+  list-style: none;
+  background-color: blueviolet;
+}
+.email {
+  display: flex;
+  
+}
+img {
+  height: 100vh;
+  display: flex;
+}
