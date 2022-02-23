@@ -6,7 +6,7 @@
 
 body {
   color: white;
-  background-color: black;
+  background-color: #111111;
 }
 main {
   display: flex;
@@ -19,15 +19,24 @@ p {
   padding: 100px 15px 15px 30px;
 }
 
+input {
+  padding-right: 30px;
+}
+
+
 .email button {
-  list-style: none;
   background-color: blueviolet;
+  color: #ebebeb;
+  padding: 2px ;
+  margin-left: 5px;
+  border: blueviolet solid 2px;
+  font-size: medium;
 }
 .email {
   display: flex;
-  
+  padding-top: 100px;
 }
 img {
-  height: 100vh;
   display: flex;
+  width: 100vh;
 }
