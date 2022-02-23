@@ -5,38 +5,30 @@
 }
 
 body {
-  color: white;
   background-color: #111111;
+  color: #ebebeb;
+  font-family: sans-serif;
+  display: flex;
+
 }
+
 main {
   display: flex;
-}
-div {
-  display: flex;
   flex-direction: column;
-}
-p {
-  padding: 100px 15px 15px 30px;
-}
-
-input {
-  padding-right: 30px;
+  height: 100vh;
+  justify-content: center;
+  flex: 1;
+  font-size: 20px;
 }
 
+main p {
+}
 
-.email button {
-  background-color: blueviolet;
-  color: #ebebeb;
-  padding: 2px ;
-  margin-left: 5px;
-  border: blueviolet solid 2px;
-  font-size: medium;
+form {
 }
-.email {
-  display: flex;
-  padding-top: 100px;
-}
+
 img {
   display: flex;
-  width: 100vh;
+  height: 100vh;
+  flex: 2;
 }
