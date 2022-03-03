@@ -10,6 +10,7 @@ main {
   display: flex;
   background-color: #111111;
   color: #ebebeb;
+  flex-wrap: wrap;
 }
 
 form {
